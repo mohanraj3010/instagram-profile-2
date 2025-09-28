@@ -27,8 +27,8 @@ body {
             height: 70px;
         }
         .header-icon {
-    width: 24px;
-    height: 24px;
+    width: 21px;
+    height: 21px;
     cursor: pointer;
 }
 
@@ -109,7 +109,6 @@ body {
     cursor: pointer;
 }
 
-/* Profile Section */
 .profile-section {
     padding: 20px;
     background-color: #000;
@@ -197,7 +196,6 @@ body {
     font-weight: 400;
 }
 
-/* Bio Section */
 .bio-section {
     margin-bottom: 20px;
 }
@@ -209,7 +207,6 @@ body {
     line-height: 1.4;
 }
 
-/* Action Buttons */
 .action-buttons {
     display: flex;
     gap: 8px;
@@ -251,7 +248,7 @@ body {
     font-size: 14px;
 }
 
-/* New Post Section */
+
 .new-post-section {
     display: flex;
     flex-direction: column;
@@ -287,7 +284,7 @@ body {
     font-weight: 400;
 }
 
-/* Content Navigation */
+
 .content-nav {
     display: flex;
     justify-content: center;
@@ -317,8 +314,6 @@ body {
 .nav-tab.active i {
     color: #fff;
 }
-
-/* Posts Grid */
 .posts-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -343,7 +338,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Bottom Navigation */
+
 .bottom-nav {
     position: absolute;
     bottom: 0;
@@ -388,7 +383,6 @@ body {
     object-fit: cover;
 }
 
-/* Responsive Design */
 @media (max-width: 414px) {
     body {
         padding: 10px;
@@ -402,7 +396,7 @@ body {
     }
 }
 
-/* Hover Effects */
+
 .nav-item:hover i {
     color: #fff;
     transform: scale(1.1);
@@ -413,7 +407,7 @@ body {
     transform: scale(1.1);
 }
 
-/* Additional Styling for Perfect Match */
+
 .profile-section {
     border-bottom: none;
 }
